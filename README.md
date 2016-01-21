@@ -27,14 +27,13 @@ You can find the latest changelogs [here](https://github.com/YAOSP/changelog/blo
 
 
 
-
 ROM Downloads
 -------------
 
 If you don't want to compile yourself and just download a flashable zip of
 YAOSP, you can find the downloads here :
 
-For Angler (Nexus 6P) : https://www.androidfilehost.com/?w=files&flid=45668
+For Angler (Nexus 6P) : [Android File Host](https://www.androidfilehost.com/?w=files&flid=45668)
 
 For Shamu (Nexus 6) : <not available yet>
 
@@ -43,3 +42,12 @@ For Hammerhead (Nexus 5) : <not available yet>
 For Flounder (Nexus 9) : <not available yet>
 
 For Flo (Nexus 7-2013 WiFi) : <not available yet>
+
+
+
+Keep updated
+------------
+
+on [Twitter](https://twitter.com/yank555lu)
+
+on [Google+](https://plus.google.com/u/0/112534316917164554045)
