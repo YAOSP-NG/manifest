@@ -27,6 +27,13 @@ You can find the latest changelogs [here](https://github.com/YAOSP/changelog/blo
 
 
 
+Known issues
+------------
+
+You can find the currently known issues list [here](https://github.com/YAOSP/changelog/blob/YAOSP-MM/known_issues/YAOSP-M_Known_Issues.txt).
+
+
+
 ROM Downloads
 -------------
 
@@ -35,13 +42,13 @@ YAOSP, you can find the downloads here :
 
 For Angler (Nexus 6P) : [Android File Host](https://www.androidfilehost.com/?w=files&flid=45668)
 
-For Shamu (Nexus 6) : <not available yet>
+For Shamu (Nexus 6) : not available yet
 
-For Hammerhead (Nexus 5) : <not available yet>
+For Hammerhead (Nexus 5) : not available yet
 
-For Flounder (Nexus 9) : <not available yet>
+For Flounder (Nexus 9) : not available yet
 
-For Flo (Nexus 7-2013 WiFi) : <not available yet>
+For Flo (Nexus 7-2013 WiFi) : not available yet
 
 
 
