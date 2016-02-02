@@ -46,10 +46,11 @@ For Shamu (Nexus 6) : not available yet
 
 For Hammerhead (Nexus 5) : not available yet
 
-For Flounder (Nexus 9) : not available yet
+For Flounder (Nexus 9) : [Android File Host](https://www.androidfilehost.com/?w=files&flid=49032)
 
 For Flo (Nexus 7-2013 WiFi) : not available yet
 
+* Note : for Angler and Flounder, flash respective latest vendor image and bootloader.
 
 
 Keep updated
