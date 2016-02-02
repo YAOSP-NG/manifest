@@ -507,6 +507,7 @@
   <!-- Kernel repos for YAOSP -->
   <project path="kernel/huawei/angler" name="YAOSP/kernel_huawei_angler" remote="github" revision="YAOSP-MM" />
   <project path="kernel/lge/hammerhead" name="YAOSP/kernel_lge_hammerhead" remote="github" revision="YAOSP-MM" />
+  <project path="kernel/htc/flounder" name="YAOSP/kernel_htc_flounder" remote="github" revision="YAOSP-MM" />
 
   <!-- Additional repos for YAOSP -->
   <project path="external/busybox" name="YAOSP/external_busybox" remote="github" revision="YAOSP-MM" />
@@ -517,5 +518,6 @@
   <project path="vendor/lge" name="YAOSP/vendor_lge" remote="github" revision="YAOSP-MM" />
   <project path="vendor/motorola" name="YAOSP/vendor_motorola" remote="github" revision="YAOSP-MM" />
   <project path="vendor/qcom" name="YAOSP/vendor_qcom" remote="github" revision="YAOSP-MM" />
+  <project path="vendor/htc" name="YAOSP/vendor_htc" remote="github" revision="YAOSP-MM" />
 
 </manifest>
