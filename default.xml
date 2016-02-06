@@ -508,6 +508,7 @@
   <project path="kernel/huawei/angler" name="YAOSP/kernel_huawei_angler" remote="github" revision="YAOSP-MM-6.0.1_r13" />
   <project path="kernel/lge/hammerhead" name="YAOSP/kernel_lge_hammerhead" remote="github" revision="YAOSP-MM-6.0.1_r13" />
   <project path="kernel/htc/flounder" name="YAOSP/kernel_htc_flounder" remote="github" revision="YAOSP-MM-6.0.1_r13" />
+  <project path="kernel/moto/shamu" name="YAOSP/kernel_moto_shamu" remote="github" revision="YAOSP-MM-6.0.1_r13" />
 
   <!-- Additional repos for YAOSP -->
   <project path="external/busybox" name="YAOSP/external_busybox" remote="github" revision="YAOSP-MM-6.0.1_r13" />
