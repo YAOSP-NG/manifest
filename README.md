@@ -42,7 +42,7 @@ YAOSP, you can find the downloads here :
 
 For Angler (Nexus 6P) : [Android File Host](https://www.androidfilehost.com/?w=files&flid=45668)
 
-For Shamu (Nexus 6) : not available yet
+For Shamu (Nexus 6) : [Android File Host](https://www.androidfilehost.com/?w=files&flid=49249)
 
 For Hammerhead (Nexus 5) : not available yet
 
