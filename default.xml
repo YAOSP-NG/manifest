@@ -516,7 +516,7 @@
   <project path="vendor/broadcom" name="YAOSP/vendor_broadcom" remote="github" revision="YAOSP-MM-6.0.1_r13" />
   <project path="vendor/huawei" name="YAOSP/vendor_huawei" remote="github" revision="YAOSP-MM-6.0.1_r13" />
   <project path="vendor/lge" name="YAOSP/vendor_lge" remote="github" revision="YAOSP-MM-6.0.1_r13" />
-  <project path="vendor/motorola" name="YAOSP/vendor_motorola" remote="github" revision="YAOSP-MM-6.0.1_r13" />
+  <project path="vendor/moto" name="YAOSP/vendor_moto" remote="github" revision="YAOSP-MM-6.0.1_r13" />
   <project path="vendor/qcom" name="YAOSP/vendor_qcom" remote="github" revision="YAOSP-MM-6.0.1_r13" />
   <project path="vendor/htc" name="YAOSP/vendor_htc" remote="github" revision="YAOSP-MM-6.0.1_r13" />
 
