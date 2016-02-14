@@ -37,8 +37,7 @@ You can find the currently known issues list [here](https://github.com/YAOSP/cha
 ROM Downloads
 -------------
 
-If you don't want to compile yourself and just download a flashable zip of
-YAOSP, you can find the downloads here :
+If you don't want to compile yourself and just download a flashable zip of YAOSP, you can find the downloads here :
 
 For Angler (Nexus 6P) : [Android File Host](https://www.androidfilehost.com/?w=files&flid=45668)
 
@@ -50,7 +49,9 @@ For Flounder (Nexus 9) : [Android File Host](https://www.androidfilehost.com/?w=
 
 For Flo (Nexus 7-2013 WiFi) : not available yet
 
-* Note : for Angler and Flounder, flash respective latest vendor image and bootloader.
+* General Note : This ROM comes without root and without gapps, so you need to flash gapps and SuperSU after the ROM zip.
+
+* Note for Angler and Flounder : flash respective latest vendor image and bootloader.
 
 
 Keep updated
