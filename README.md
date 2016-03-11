@@ -43,7 +43,7 @@ For Angler (Nexus 6P) : [Android File Host](https://www.androidfilehost.com/?w=f
 
 For Shamu (Nexus 6) : [Android File Host](https://www.androidfilehost.com/?w=files&flid=49249)
 
-For Hammerhead (Nexus 5) : not available yet
+For Hammerhead (Nexus 5) : [Android File Host](https://www.androidfilehost.com/?w=files&flid=51864)
 
 For Flounder (Nexus 9) : [Android File Host](https://www.androidfilehost.com/?w=files&flid=49032)
 
