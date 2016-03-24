@@ -39,15 +39,15 @@ ROM Downloads
 
 If you don't want to compile yourself and just download a flashable zip of YAOSP, you can find the downloads here :
 
-For Angler (Nexus 6P) : [Android File Host](https://www.androidfilehost.com/?w=files&flid=45668)
+Angler (Nexus 6P) : [Android File Host](https://www.androidfilehost.com/?w=files&flid=45668)
 
-For Shamu (Nexus 6) : [Android File Host](https://www.androidfilehost.com/?w=files&flid=49249)
+Shamu (Nexus 6) : [Android File Host](https://www.androidfilehost.com/?w=files&flid=49249)
 
-For Hammerhead (Nexus 5) : [Android File Host](https://www.androidfilehost.com/?w=files&flid=51864)
+Hammerhead (Nexus 5) : [Android File Host](https://www.androidfilehost.com/?w=files&flid=51864)
 
-For Flounder (Nexus 9) : [Android File Host](https://www.androidfilehost.com/?w=files&flid=49032)
+Flounder (Nexus 9) : [Android File Host](https://www.androidfilehost.com/?w=files&flid=49032)
 
-For Flo (Nexus 7-2013 WiFi) : not available yet
+Flo (Nexus 7-2013 WiFi) : [Android File Host](https://www.androidfilehost.com/?w=files&flid=52753)
 
 * General Note : This ROM comes without root and without gapps, so you need to flash gapps and SuperSU after the ROM zip.
 

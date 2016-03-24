@@ -23,8 +23,9 @@
   <project path="developers/samples/android" name="platform/developers/samples/android" />
   <project path="development" name="platform/development" groups="pdk-cw-fs,pdk-fs" />
   <project path="device/asus/deb" name="device/asus/deb" groups="device,flo" />
-  <project path="device/asus/flo" name="device/asus/flo" groups="device,flo" />
-  <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" clone-depth="1" />
+  <!--project path="device/asus/flo" name="device/asus/flo" groups="device,flo" /-->
+  <!--project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" clone-depth="1" /-->
+  <project path="device/asus/flo" name="YAOSP/device_asus_flo" remote="github" revision="YAOSP-MM-6.0.1_r22" />
   <project path="device/asus/fugu" name="device/asus/fugu" groups="device,fugu,broadcom_pdk" />
   <project path="device/asus/fugu-kernel" name="device/asus/fugu-kernel" groups="device,fugu,broadcom_pdk" clone-depth="1" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs,pdk-fs" />
@@ -507,6 +508,7 @@
   <project path="kernel/lge/hammerhead" name="YAOSP/kernel_lge_hammerhead" remote="github" revision="YAOSP-MM-6.0.1_r22" />
   <project path="kernel/htc/flounder" name="YAOSP/kernel_htc_flounder" remote="github" revision="YAOSP-MM-6.0.1_r22" />
   <project path="kernel/moto/shamu" name="YAOSP/kernel_moto_shamu" remote="github" revision="YAOSP-MM-6.0.1_r22" />
+  <project path="kernel/asus/flo" name="YAOSP/kernel_asus_flo" remote="github" revision="YAOSP-MM-6.0.1_r22" />
 
   <!-- Additional repos for YAOSP -->
   <project path="external/busybox" name="YAOSP/external_busybox" remote="github" revision="YAOSP-MM-6.0.1_r22" />
@@ -518,5 +520,6 @@
   <project path="vendor/moto" name="YAOSP/vendor_moto" remote="github" revision="YAOSP-MM-6.0.1_r22" />
   <project path="vendor/qcom" name="YAOSP/vendor_qcom" remote="github" revision="YAOSP-MM-6.0.1_r22" />
   <project path="vendor/htc" name="YAOSP/vendor_htc" remote="github" revision="YAOSP-MM-6.0.1_r22" />
+  <project path="vendor/asus" name="YAOSP/vendor_asus" remote="github" revision="YAOSP-MM-6.0.1_r22" />
 
 </manifest>
