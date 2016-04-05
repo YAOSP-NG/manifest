@@ -4,11 +4,11 @@
            fetch="https://android.googlesource.com/" />
   <remote  name="github"
            fetch="git://github.com/" />
-  <default revision="refs/tags/android-6.0.1_r22"
+  <default revision="refs/tags/android-6.0.1_r24"
            remote="aosp"
            sync-j="4" />
   <!--project path="build" name="platform/build" groups="pdk" -->
-  <project path="build" name="YAOSP/build" remote="github" revision="YAOSP-MM-6.0.1_r22" >
+  <project path="build" name="YAOSP/build" remote="github" revision="YAOSP-MM-6.0.1_r24" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -25,7 +25,7 @@
   <project path="device/asus/deb" name="device/asus/deb" groups="device,flo" />
   <!--project path="device/asus/flo" name="device/asus/flo" groups="device,flo" /-->
   <!--project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" clone-depth="1" /-->
-  <project path="device/asus/flo" name="YAOSP/device_asus_flo" remote="github" revision="YAOSP-MM-6.0.1_r22" />
+  <project path="device/asus/flo" name="YAOSP/device_asus_flo" remote="github" revision="YAOSP-MM-6.0.1_r24" />
   <project path="device/asus/fugu" name="device/asus/fugu" groups="device,fugu,broadcom_pdk" />
   <project path="device/asus/fugu-kernel" name="device/asus/fugu-kernel" groups="device,fugu,broadcom_pdk" clone-depth="1" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs,pdk-fs" />
@@ -35,7 +35,7 @@
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" />
   <!--project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" /-->
-  <project path="device/generic/goldfish" name="YAOSP/device_generic_goldfish" remote="github" revision="YAOSP-MM-6.0.1_r22" />
+  <project path="device/generic/goldfish" name="YAOSP/device_generic_goldfish" remote="github" revision="YAOSP-MM-6.0.1_r24" />
   <project path="device/generic/mips" name="device/generic/mips" groups="pdk" />
   <project path="device/generic/mini-emulator-arm64" name="device/generic/mini-emulator-arm64" groups="pdk" />
   <project path="device/generic/mini-emulator-armv7-a-neon" name="device/generic/mini-emulator-armv7-a-neon" groups="pdk" />
@@ -52,13 +52,13 @@
   <project path="device/htc/flounder-kernel" name="device/htc/flounder-kernel" groups="device,flounder,broadcom_pdk" clone-depth="1" />
   <!--project path="device/huawei/angler" name="device/huawei/angler" groups="device,angler,broadcom_pdk" /-->
   <!--project path="device/huawei/angler-kernel" name="device/huawei/angler-kernel" groups="device,angler,broadcom_pdk" /-->
-  <project path="device/huawei/angler" name="YAOSP/device_huawei_angler" remote="github" revision="YAOSP-MM-6.0.1_r22" />
+  <project path="device/huawei/angler" name="YAOSP/device_huawei_angler" remote="github" revision="YAOSP-MM-6.0.1_r24" />
   <!--project path="device/lge/hammerhead" name="device/lge/hammerhead" groups="device,hammerhead,broadcom_pdk,generic_fs" /-->
   <!--project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead,broadcom_pdk,generic_fs" clone-depth="1" /-->
-  <project path="device/lge/hammerhead" name="YAOSP/device_lge_hammerhead" remote="github" revision="YAOSP-MM-6.0.1_r22" />
+  <project path="device/lge/hammerhead" name="YAOSP/device_lge_hammerhead" remote="github" revision="YAOSP-MM-6.0.1_r24" />
   <!--project path="device/moto/shamu" name="device/moto/shamu" groups="device,shamu,broadcom_pdk" /-->
   <!--project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu,broadcom_pdk" clone-depth="1" /-->
-  <project path="device/moto/shamu-kernel" name="YAOSP/device_moto_shamu" remote="github" revision="YAOSP-MM-6.0.1_r22" />
+  <project path="device/moto/shamu-kernel" name="YAOSP/device_moto_shamu" remote="github" revision="YAOSP-MM-6.0.1_r24" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
@@ -235,7 +235,7 @@
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" />
   <project path="external/selinux" name="platform/external/selinux" groups="pdk" />
   <!--project path="external/sepolicy" name="platform/external/sepolicy" groups="pdk" /-->
-  <project path="external/sepolicy" name="YAOSP/external_sepolicy" remote="github" revision="YAOSP-MM-6.0.1_r22" />
+  <project path="external/sepolicy" name="YAOSP/external_sepolicy" remote="github" revision="YAOSP-MM-6.0.1_r24" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk,qcom_msm8x26" />
   <project path="external/skia" name="platform/external/skia" groups="pdk,qcom_msm8x26" />
   <project path="external/slf4j" name="platform/external/slf4j" groups="pdk-fs" />
@@ -271,9 +271,9 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" />
   <!--project path="frameworks/av" name="platform/frameworks/av" groups="pdk" /-->
-  <project path="frameworks/av" name="YAOSP/frameworks_av" remote="github" revision="YAOSP-MM-6.0.1_r22" />
+  <project path="frameworks/av" name="YAOSP/frameworks_av" remote="github" revision="YAOSP-MM-6.0.1_r24" />
   <!--project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs" /-->
-  <project path="frameworks/base" name="YAOSP/frameworks_base" remote="github" revision="YAOSP-MM-6.0.1_r22" />
+  <project path="frameworks/base" name="YAOSP/frameworks_base" remote="github" revision="YAOSP-MM-6.0.1_r24" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -283,7 +283,7 @@
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs,pdk-fs" />
   <!--project path="frameworks/native" name="platform/frameworks/native" groups="pdk" /-->
-  <project path="frameworks/native" name="YAOSP/frameworks_native" remote="github" revision="YAOSP-MM-6.0.1_r22" />
+  <project path="frameworks/native" name="YAOSP/frameworks_native" remote="github" revision="YAOSP-MM-6.0.1_r24" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" groups="pdk-fs" />
   <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs,pdk-fs" />
@@ -298,7 +298,7 @@
   <project path="frameworks/opt/net/ims" name="platform/frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" groups="pdk-cw-fs,pdk-fs" />
   <!--project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" groups="pdk" /-->
-  <project path="frameworks/opt/net/wifi" name="YAOSP/frameworks_opt_net_wifi" remote="github" revision="YAOSP-MM-6.0.1_r22" />
+  <project path="frameworks/opt/net/wifi" name="YAOSP/frameworks_opt_net_wifi" remote="github" revision="YAOSP-MM-6.0.1_r24" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" groups="pdk" />
@@ -368,13 +368,13 @@
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" groups="pdk-fs" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" />
   <!--project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" groups="pdk-fs" /-->
-  <project path="packages/apps/Contacts" name="YAOSP/packages_apps_Contacts" remote="github" revision="YAOSP-MM-6.0.1_r22" />
+  <project path="packages/apps/Contacts" name="YAOSP/packages_apps_Contacts" remote="github" revision="YAOSP-MM-6.0.1_r24" />
   <!--project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" groups="pdk-fs"/-->
-  <project path="packages/apps/ContactsCommon" name="YAOSP/packages_apps_ContactsCommon" remote="github" revision="YAOSP-MM-6.0.1_r22"/>
+  <project path="packages/apps/ContactsCommon" name="YAOSP/packages_apps_ContactsCommon" remote="github" revision="YAOSP-MM-6.0.1_r24"/>
   <!--project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" groups="pdk-fs" /-->
-  <project path="packages/apps/DeskClock" name="YAOSP/packages_apps_DeskClock" remote="github" revision="YAOSP-MM-6.0.1_r22" />
+  <project path="packages/apps/DeskClock" name="YAOSP/packages_apps_DeskClock" remote="github" revision="YAOSP-MM-6.0.1_r24" />
   <!--project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" groups="pdk-fs" /-->
-  <project path="packages/apps/Dialer" name="YAOSP/packages_apps_Dialer" remote="github" revision="YAOSP-MM-6.0.1_r22" />
+  <project path="packages/apps/Dialer" name="YAOSP/packages_apps_Dialer" remote="github" revision="YAOSP-MM-6.0.1_r24" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" groups="pdk-fs" />
   <project path="packages/apps/ExactCalculator" name="platform/packages/apps/ExactCalculator" groups="pdk-fs" />
   <project path="packages/apps/FMRadio" name="platform/packages/apps/FMRadio" groups="pdk-fs" />
@@ -382,7 +382,7 @@
   <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" groups="pdk-fs" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" groups="pdk-fs" />
   <!--project path="packages/apps/InCallUI" name="platform/packages/apps/InCallUI" groups="pdk-fs" /-->
-  <project path="packages/apps/InCallUI" name="YAOSP/packages_apps_InCallUI" remote="github" revision="YAOSP-MM-6.0.1_r22" />
+  <project path="packages/apps/InCallUI" name="YAOSP/packages_apps_InCallUI" remote="github" revision="YAOSP-MM-6.0.1_r24" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" groups="pdk-fs" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" groups="pdk-fs" />
   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" groups="pdk-fs" />
@@ -394,14 +394,14 @@
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" groups="apps_nfc,pdk-fs" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" />
   <!--project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" groups="pdk-fs" /-->
-  <project path="packages/apps/PackageInstaller" name="YAOSP/packages_apps_PackageInstaller" remote="github" revision="YAOSP-MM-6.0.1_r22" />
+  <project path="packages/apps/PackageInstaller" name="YAOSP/packages_apps_PackageInstaller" remote="github" revision="YAOSP-MM-6.0.1_r24" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" groups="pdk-fs" />
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" groups="pdk-cw-fs,pdk-fs"/>
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" groups="pdk-fs" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" groups="pdk-fs" />
   <!--project path="packages/apps/Settings" name="platform/packages/apps/Settings" groups="pdk-fs" /-->
-  <project path="packages/apps/Settings" name="YAOSP/packages_apps_Settings" remote="github" revision="YAOSP-MM-6.0.1_r22" />
+  <project path="packages/apps/Settings" name="YAOSP/packages_apps_Settings" remote="github" revision="YAOSP-MM-6.0.1_r24" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" groups="pdk-fs" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" groups="pdk-fs" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" groups="pdk-fs" />
@@ -410,11 +410,11 @@
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" groups="pdk-fs" />
   <project path="packages/apps/Terminal" name="platform/packages/apps/Terminal" groups="pdk-fs" />
   <!--project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" groups="generic_fs" /-->
-  <project path="packages/apps/TvSettings" name="YAOSP/packages_apps_TvSettings" remote="github" revision="YAOSP-MM-6.0.1_r22" />
+  <project path="packages/apps/TvSettings" name="YAOSP/packages_apps_TvSettings" remote="github" revision="YAOSP-MM-6.0.1_r24" />
   <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" groups="pdk-fs" />
   <project path="packages/experimental" name="platform/packages/experimental" />
   <!--project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" groups="pdk-fs" /-->
-  <project path="packages/inputmethods/LatinIME" name="YAOSP/packages_inputmethods_LatinIME" remote="github" revision="YAOSP-MM-6.0.1_r22" />
+  <project path="packages/inputmethods/LatinIME" name="YAOSP/packages_inputmethods_LatinIME" remote="github" revision="YAOSP-MM-6.0.1_r24" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" groups="pdk-fs" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" groups="pdk-fs" />
   <project path="packages/providers/BookmarkProvider" name="platform/packages/providers/BookmarkProvider" groups="pdk-fs" />
@@ -425,7 +425,7 @@
   <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" groups="pdk-fs" />
   <!--project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" groups="pdk-cw-fs,pdk-fs" /-->
-  <project path="packages/providers/TelephonyProvider" name="YAOSP/packages_providers_TelephonyProvider" remote="github" revision="YAOSP-MM-6.0.1_r22" />
+  <project path="packages/providers/TelephonyProvider" name="YAOSP/packages_providers_TelephonyProvider" remote="github" revision="YAOSP-MM-6.0.1_r24" />
   <project path="packages/providers/TvProvider" name="platform/packages/providers/TvProvider" groups="pdk-fs" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" groups="pdk-fs" />
@@ -433,9 +433,9 @@
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" groups="pdk-fs" />
   <project path="packages/services/Mms" name="platform/packages/services/Mms" groups="pdk-cw-fs,pdk-fs" />
   <!--project path="packages/services/Telecomm" name="platform/packages/services/Telecomm" groups="pdk-cw-fs,pdk-fs" /-->
-  <project path="packages/services/Telecomm" name="YAOSP/packages_services_Telecomm" remote="github" revision="YAOSP-MM-6.0.1_r22" />
+  <project path="packages/services/Telecomm" name="YAOSP/packages_services_Telecomm" remote="github" revision="YAOSP-MM-6.0.1_r24" />
   <!--project path="packages/services/Telephony" name="platform/packages/services/Telephony" groups="pdk-cw-fs,pdk-fs" /-->
-  <project path="packages/services/Telephony" name="YAOSP/packages_services_Telephony" remote="github" revision="YAOSP-MM-6.0.1_r22" />
+  <project path="packages/services/Telephony" name="YAOSP/packages_services_Telephony" remote="github" revision="YAOSP-MM-6.0.1_r24" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" groups="pdk-fs" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" groups="pdk-fs" />
   <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" groups="pdk-fs" />
@@ -480,7 +480,7 @@
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" />
   <project path="system/bt" name="platform/system/bt" groups="pdk" />
   <!--project path="system/core" name="platform/system/core" groups="pdk" /-->
-  <project path="system/core" name="YAOSP/system_core" remote="github" revision="YAOSP-MM-6.0.1_r22" />
+  <project path="system/core" name="YAOSP/system_core" remote="github" revision="YAOSP-MM-6.0.1_r24" />
   <project path="system/extras" name="platform/system/extras" groups="pdk" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
@@ -504,22 +504,22 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
   <!-- Kernel repos for YAOSP -->
-  <project path="kernel/huawei/angler" name="YAOSP/kernel_huawei_angler" remote="github" revision="YAOSP-MM-6.0.1_r22" />
-  <project path="kernel/lge/hammerhead" name="YAOSP/kernel_lge_hammerhead" remote="github" revision="YAOSP-MM-6.0.1_r22" />
-  <project path="kernel/htc/flounder" name="YAOSP/kernel_htc_flounder" remote="github" revision="YAOSP-MM-6.0.1_r22" />
-  <project path="kernel/moto/shamu" name="YAOSP/kernel_moto_shamu" remote="github" revision="YAOSP-MM-6.0.1_r22" />
-  <project path="kernel/asus/flo" name="YAOSP/kernel_asus_flo" remote="github" revision="YAOSP-MM-6.0.1_r22" />
+  <project path="kernel/huawei/angler" name="YAOSP/kernel_huawei_angler" remote="github" revision="YAOSP-MM-6.0.1_r24" />
+  <project path="kernel/lge/hammerhead" name="YAOSP/kernel_lge_hammerhead" remote="github" revision="YAOSP-MM-6.0.1_r24" />
+  <project path="kernel/htc/flounder" name="YAOSP/kernel_htc_flounder" remote="github" revision="YAOSP-MM-6.0.1_r24" />
+  <project path="kernel/moto/shamu" name="YAOSP/kernel_moto_shamu" remote="github" revision="YAOSP-MM-6.0.1_r24" />
+  <project path="kernel/asus/flo" name="YAOSP/kernel_asus_flo" remote="github" revision="YAOSP-MM-6.0.1_r24" />
 
   <!-- Additional repos for YAOSP -->
-  <project path="external/busybox" name="YAOSP/external_busybox" remote="github" revision="YAOSP-MM-6.0.1_r22" />
+  <project path="external/busybox" name="YAOSP/external_busybox" remote="github" revision="YAOSP-MM-6.0.1_r24" />
 
   <!-- Vendor repos for YAOSP -->
-  <project path="vendor/broadcom" name="YAOSP/vendor_broadcom" remote="github" revision="YAOSP-MM-6.0.1_r22" />
-  <project path="vendor/huawei" name="YAOSP/vendor_huawei" remote="github" revision="YAOSP-MM-6.0.1_r22" />
-  <project path="vendor/lge" name="YAOSP/vendor_lge" remote="github" revision="YAOSP-MM-6.0.1_r22" />
-  <project path="vendor/moto" name="YAOSP/vendor_moto" remote="github" revision="YAOSP-MM-6.0.1_r22" />
-  <project path="vendor/qcom" name="YAOSP/vendor_qcom" remote="github" revision="YAOSP-MM-6.0.1_r22" />
-  <project path="vendor/htc" name="YAOSP/vendor_htc" remote="github" revision="YAOSP-MM-6.0.1_r22" />
-  <project path="vendor/asus" name="YAOSP/vendor_asus" remote="github" revision="YAOSP-MM-6.0.1_r22" />
+  <project path="vendor/broadcom" name="YAOSP/vendor_broadcom" remote="github" revision="YAOSP-MM-6.0.1_r24" />
+  <project path="vendor/huawei" name="YAOSP/vendor_huawei" remote="github" revision="YAOSP-MM-6.0.1_r24" />
+  <project path="vendor/lge" name="YAOSP/vendor_lge" remote="github" revision="YAOSP-MM-6.0.1_r24" />
+  <project path="vendor/moto" name="YAOSP/vendor_moto" remote="github" revision="YAOSP-MM-6.0.1_r24" />
+  <project path="vendor/qcom" name="YAOSP/vendor_qcom" remote="github" revision="YAOSP-MM-6.0.1_r24" />
+  <project path="vendor/htc" name="YAOSP/vendor_htc" remote="github" revision="YAOSP-MM-6.0.1_r24" />
+  <project path="vendor/asus" name="YAOSP/vendor_asus" remote="github" revision="YAOSP-MM-6.0.1_r24" />
 
 </manifest>
