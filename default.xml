@@ -514,11 +514,9 @@
   <project path="external/busybox" name="YAOSP/external_busybox" remote="github" revision="YAOSP-MM-6.0.1_r24" />
 
   <!-- Vendor repos for YAOSP -->
-  <project path="vendor/broadcom" name="YAOSP/vendor_broadcom" remote="github" revision="YAOSP-MM-6.0.1_r24" />
   <project path="vendor/huawei" name="YAOSP/vendor_huawei" remote="github" revision="YAOSP-MM-6.0.1_r24" />
   <project path="vendor/lge" name="YAOSP/vendor_lge" remote="github" revision="YAOSP-MM-6.0.1_r24" />
   <project path="vendor/moto" name="YAOSP/vendor_moto" remote="github" revision="YAOSP-MM-6.0.1_r24" />
-  <project path="vendor/qcom" name="YAOSP/vendor_qcom" remote="github" revision="YAOSP-MM-6.0.1_r24" />
   <project path="vendor/htc" name="YAOSP/vendor_htc" remote="github" revision="YAOSP-MM-6.0.1_r24" />
   <project path="vendor/asus" name="YAOSP/vendor_asus" remote="github" revision="YAOSP-MM-6.0.1_r24" />
 
