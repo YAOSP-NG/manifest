@@ -96,7 +96,8 @@
   <project path="external/drm_gralloc" name="platform/external/drm_gralloc" groups="drm_gralloc" />
   <project path="external/drm_hwcomposer" name="platform/external/drm_hwcomposer" groups="drm_hwcomposer" />
   <project path="external/droiddriver" name="platform/external/droiddriver" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" groups="pdk" />
+  <!--project path="external/e2fsprogs" name="platform/external/e2fsprogs" groups="pdk" /-->
+  <project path="external/e2fsprogs" name="YAOSP/external_e2fsprogs" remote="github" revision="YAOSP-MM-6.0.1_r24" />
   <project path="external/easymock" name="platform/external/easymock" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" groups="pdk-cw-fs,pdk-fs" />
@@ -487,7 +488,8 @@
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
-  <project path="system/vold" name="platform/system/vold" groups="pdk" />
+  <!--project path="system/vold" name="platform/system/vold" groups="pdk" /-->
+  <project path="system/vold" name="YAOSP/system_vold" remote="github" revision="YAOSP-MM-6.0.1_r24" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
@@ -503,15 +505,18 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
+  <!-- Additional repos for YAOSP -->
+  <project path="external/busybox" name="YAOSP/external_busybox" remote="github" revision="YAOSP-MM-6.0.1_r24" />
+  <project path="external/fuse" name="YAOSP/external_fuse" remote="github" revision="YAOSP-MM-6.0.1_r24" />
+  <project path="external/exfat" name="YAOSP/external_exfat" remote="github" revision="YAOSP-MM-6.0.1_r24" />
+  <project path="external/ntfs-3g" name="YAOSP/external_ntfs-3g" remote="github" revision="YAOSP-MM-6.0.1_r24" />
+
   <!-- Kernel repos for YAOSP -->
   <project path="kernel/huawei/angler" name="YAOSP/kernel_huawei_angler" remote="github" revision="YAOSP-MM-6.0.1_r24" />
   <project path="kernel/lge/hammerhead" name="YAOSP/kernel_lge_hammerhead" remote="github" revision="YAOSP-MM-6.0.1_r24" />
   <project path="kernel/htc/flounder" name="YAOSP/kernel_htc_flounder" remote="github" revision="YAOSP-MM-6.0.1_r24" />
   <project path="kernel/moto/shamu" name="YAOSP/kernel_moto_shamu" remote="github" revision="YAOSP-MM-6.0.1_r24" />
   <project path="kernel/asus/flo" name="YAOSP/kernel_asus_flo" remote="github" revision="YAOSP-MM-6.0.1_r24" />
-
-  <!-- Additional repos for YAOSP -->
-  <project path="external/busybox" name="YAOSP/external_busybox" remote="github" revision="YAOSP-MM-6.0.1_r24" />
 
   <!-- Vendor repos for YAOSP -->
   <project path="vendor/huawei" name="YAOSP/vendor_huawei" remote="github" revision="YAOSP-MM-6.0.1_r24" />
