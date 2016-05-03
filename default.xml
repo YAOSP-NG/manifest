@@ -29,8 +29,9 @@
   <project path="device/asus/fugu" name="device/asus/fugu" groups="device,fugu,broadcom_pdk" />
   <project path="device/asus/fugu-kernel" name="device/asus/fugu-kernel" groups="device,fugu,broadcom_pdk" clone-depth="1" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs,pdk-fs" />
-  <project path="device/lge/bullhead" name="device/lge/bullhead" groups="device,bullhead" />
-  <project path="device/lge/bullhead-kernel" name="device/lge/bullhead-kernel" groups="device,bullhead" />
+  <!--project path="device/lge/bullhead" name="device/lge/bullhead" groups="device,bullhead" /-->
+  <!--project path="device/lge/bullhead-kernel" name="device/lge/bullhead-kernel" groups="device,bullhead" /-->
+  <project path="device/lge/bullhead" name="YAOSP/device_lge_bullhead" remote="github" revision="YAOSP-MM-6.0.1_r24" />
   <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" />
@@ -513,6 +514,7 @@
 
   <!-- Kernel repos for YAOSP -->
   <project path="kernel/huawei/angler" name="YAOSP/kernel_huawei_angler" remote="github" revision="YAOSP-MM-6.0.1_r24" />
+  <project path="kernel/lge/bullhead" name="YAOSP/kernel_lge_bullhead" remote="github" revision="YAOSP-MM-6.0.1_r24" />
   <project path="kernel/lge/hammerhead" name="YAOSP/kernel_lge_hammerhead" remote="github" revision="YAOSP-MM-6.0.1_r24" />
   <project path="kernel/htc/flounder" name="YAOSP/kernel_htc_flounder" remote="github" revision="YAOSP-MM-6.0.1_r24" />
   <project path="kernel/moto/shamu" name="YAOSP/kernel_moto_shamu" remote="github" revision="YAOSP-MM-6.0.1_r24" />
