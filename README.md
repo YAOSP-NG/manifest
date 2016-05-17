@@ -11,7 +11,7 @@ To get started with YAOSP, you'll need to get familiar with
 
 To initialize your local repository using the YAOSP trees, use this command:
 
-	repo init -u git://github.com/YAOSP/manifest.git -b YAOSP-MM-6.0.1_r24
+	repo init -u git://github.com/YAOSP/manifest.git -b YAOSP-MM-6.0.1_r25
 
 
 Then sync up with this command:
@@ -23,14 +23,14 @@ Then sync up with this command:
 Changelog
 ---------
 
-You can find the latest changelogs [here](https://github.com/YAOSP/changelog/blob/YAOSP-MM-6.0.1_r24/changelog/YAOSP-M_Changelog.txt).
+You can find the latest changelogs [here](https://github.com/YAOSP/changelog/blob/YAOSP-MM-6.0.1_r25/changelog/YAOSP-MM_Changelog.txt).
 
 
 
 Known issues
 ------------
 
-You can find the currently known issues list [here](https://github.com/YAOSP/changelog/blob/YAOSP-MM-6.0.1_r24/known_issues/YAOSP-M_Known_Issues.txt).
+You can find the currently known issues list [here](https://github.com/YAOSP/changelog/blob/YAOSP-MM-6.0.1_r25/known_issues/YAOSP-MM_Known_Issues.txt).
 
 
 
@@ -40,6 +40,8 @@ ROM Downloads
 If you don't want to compile yourself and just download a flashable zip of YAOSP, you can find the downloads here :
 
 Angler (Nexus 6P) : [Android File Host](https://www.androidfilehost.com/?w=files&flid=45668)
+
+Bullhead (Nexus 5X) : [Android File Host](https://www.androidfilehost.com/?w=files&flid=56381)
 
 Shamu (Nexus 6) : [Android File Host](https://www.androidfilehost.com/?w=files&flid=49249)
 
