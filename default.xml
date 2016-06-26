@@ -398,7 +398,8 @@
   <!--project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" groups="pdk-fs" /-->
   <project path="packages/apps/PackageInstaller" name="YAOSP/packages_apps_PackageInstaller" remote="github" revision="YAOSP-MM-6.0.1_r45" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" groups="pdk-fs" />
-  <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" groups="pdk-cw-fs,pdk-fs"/>
+  <!--project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" groups="pdk-cw-fs,pdk-fs" /-->
+  <project path="packages/apps/PhoneCommon" name="YAOSP/packages_apps_PhoneCommon" remote="github" revision="YAOSP-MM-6.0.1_r45" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" groups="pdk-fs" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" groups="pdk-fs" />
