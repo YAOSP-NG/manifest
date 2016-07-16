@@ -51,10 +51,13 @@ Flounder (Nexus 9) : [Android File Host](https://www.androidfilehost.com/?w=file
 
 Flo (Nexus 7-2013 WiFi) : [Android File Host](https://www.androidfilehost.com/?w=files&flid=52753)
 
-* General Note : This ROM comes without root and without gapps, so you need to flash gapps and SuperSU after the ROM zip.
+* General Note 1 : This ROM comes with source-based bake-in root, which you have to enable in developer settings, it's disabled by default !
 
-* Note for Angler and Flounder : flash respective latest vendor image and bootloader.
+* General Note 2 : If you prefer the use of SuperSU, you can flash it like before, it will be supported as well.
 
+* General Note 3 : This ROM does NOT comes with gapps, nor gapps backup script, so you need to flash gapps after the ROM zip each time !
+
+* Note for Angler, Bullhead and Flounder : flash respective latest vendor image and bootloader.
 
 Keep updated
 ------------

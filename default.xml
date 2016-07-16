@@ -487,7 +487,9 @@
   <project path="system/bt" name="platform/system/bt" groups="pdk" />
   <!--project path="system/core" name="platform/system/core" groups="pdk" /-->
   <project path="system/core" name="YAOSP/system_core" remote="github" revision="YAOSP-MM-6.0.1_r54" />
-  <project path="system/extras" name="platform/system/extras" groups="pdk" />
+  <!--project path="system/extras" name="platform/system/extras" groups="pdk" /-->
+  <project path="system/extras" name="YAOSP/system_extras"  remote="github" revision="YAOSP-MM-6.0.1_r54" />
+  <project path="system/extras/su" name="YAOSP/system_extras_su"  remote="github" revision="YAOSP-MM-6.0.1_r54" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
