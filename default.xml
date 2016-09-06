@@ -520,6 +520,7 @@
   <project path="external/fuse" name="YAOSP/external_fuse" remote="github" revision="YAOSP-MM-6.0.1_r62" />
   <project path="external/exfat" name="YAOSP/external_exfat" remote="github" revision="YAOSP-MM-6.0.1_r62" />
   <project path="external/ntfs-3g" name="YAOSP/external_ntfs-3g" remote="github" revision="YAOSP-MM-6.0.1_r62" />
+  <project path="packages/apps/masquerade" name="YAOSP/packages_apps_masquerade" remote="github" revision="YAOSP-MM-6.0.1_r62" />
 
   <!-- Kernel repos for YAOSP -->
   <project path="kernel/huawei/angler" name="YAOSP/kernel_huawei_angler" remote="github" revision="YAOSP-MM-6.0.1_r62" />
