@@ -11,7 +11,7 @@ To get started with YAOSP, you'll need to get familiar with
 
 To initialize your local repository using the YAOSP trees, use this command:
 
-	repo init -u git://github.com/YAOSP/manifest.git -b YAOSP-MM-6.0.1_r62
+	repo init -u git://github.com/YAOSP-NG/manifest.git -b YAOSP-NG-7.0.0_r6
 
 
 Then sync up with this command:
@@ -23,14 +23,14 @@ Then sync up with this command:
 Changelog
 ---------
 
-You can find the latest changelogs [here](https://github.com/YAOSP/changelog/blob/YAOSP-MM-6.0.1_r62/changelog/YAOSP-MM_Changelog.txt).
+You can find the latest changelogs [here](https://raw.githubusercontent.com/YAOSP-NG/vendor_yaosp/YAOSP-NG-7.0.0_r6/misc/doc/Changelog.txt).
 
 
 
 Known issues
 ------------
 
-You can find the currently known issues list [here](https://github.com/YAOSP/changelog/blob/YAOSP-MM-6.0.1_r62/known_issues/YAOSP-MM_Known_Issues.txt).
+You can find the currently known issues list [here](https://raw.githubusercontent.com/YAOSP-NG/vendor_yaosp/YAOSP-NG-7.0.0_r6/misc/doc/Known_issues.txt).
 
 
 
@@ -39,17 +39,17 @@ ROM Downloads
 
 If you don't want to compile yourself and just download a flashable zip of YAOSP, you can find the downloads here :
 
-Angler (Nexus 6P) : [Android File Host](https://www.androidfilehost.com/?w=files&flid=45668)
+Angler (Nexus 6P) : [Android File Host](https://www.androidfilehost.com/?w=files&flid=114286)
 
-Bullhead (Nexus 5X) : [Android File Host](https://www.androidfilehost.com/?w=files&flid=56381)
+Bullhead (Nexus 5X) : [Android File Host](https://www.androidfilehost.com/?w=files&flid=114526)
 
-Shamu (Nexus 6) : [Android File Host](https://www.androidfilehost.com/?w=files&flid=49249)
+Shamu (Nexus 6) : [Android File Host](https://www.androidfilehost.com/?w=files&flid=114294)
 
-Hammerhead (Nexus 5) : [Android File Host](https://www.androidfilehost.com/?w=files&flid=51864)
+Hammerhead (Nexus 5) : -- no support yet, maybe later ---
 
-Flounder (Nexus 9) : [Android File Host](https://www.androidfilehost.com/?w=files&flid=49032)
+Flounder (Nexus 9) : -- no support yet, maybe later ---
 
-Flo (Nexus 7-2013 WiFi) : [Android File Host](https://www.androidfilehost.com/?w=files&flid=52753)
+Flo (Nexus 7-2013 WiFi) : -- no support yet, maybe later ---
 
 * General Note 1 : This ROM comes with source-based bake-in root, which you have to enable in developer settings, it's disabled by default !
 
