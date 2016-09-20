@@ -570,4 +570,8 @@
   <!--project path="vendor/htc" name="vendor_htc" remote="YAOSP" revision="YAOSP-NG-7.0.0_r6" /-->
   <!--project path="vendor/asus" name="vendor_asus" remote="YAOSP" revision="YAOSP-NG-7.0.0_r6" /-->
 
+  <!-- 4.8 toolchainse / needed for some older kernels -->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" remote="aosp" revision="master" />
+  <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" groups="pdk,darwin,arm" remote="aosp" revision="master" />
+
 </manifest>
