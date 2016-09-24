@@ -347,7 +347,8 @@
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
-  <project path="frameworks/support" name="platform/frameworks/support" groups="pdk-cw-fs,pdk-fs" />
+  <!--project path="frameworks/support" name="platform/frameworks/support" groups="pdk-cw-fs,pdk-fs" /-->
+  <project path="frameworks/support" name="frameworks_support" remote="YAOSP" revision="YAOSP-NG-7.0.0_r6" />
   <project path="frameworks/data-binding" name="platform/frameworks/data-binding" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/webview" name="platform/frameworks/webview" groups="pdk-cw-fs,pdk-fs" />
@@ -516,7 +517,8 @@
   <project path="system/connectivity/shill" name="platform/system/connectivity/shill" />
   <!--project path="system/core" name="platform/system/core" groups="pdk" /-->
   <project path="system/core" name="system_core" remote="YAOSP" revision="YAOSP-NG-7.0.0_r6" />
-  <project path="system/extras" name="platform/system/extras" groups="pdk" />
+  <!--project path="system/extras" name="platform/system/extras" groups="pdk" /-->
+  <project path="system/extras" name="system_extras" remote="YAOSP" revision="YAOSP-NG-7.0.0_r6" />
   <project path="system/firewalld" name="platform/system/firewalld" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
@@ -553,6 +555,7 @@
   <!--project path="external/exfat" name="external_exfat" remote="YAOSP" revision="YAOSP-NG-7.0.0_r6" /-->
   <!--project path="external/ntfs-3g" name="external_ntfs-3g" remote="YAOSP" revision="YAOSP-NG-7.0.0_r6" /-->
   <!--project path="packages/apps/masquerade" name="packages_apps_masquerade" remote="YAOSP" revision="YAOSP-NG-7.0.0_r6" /-->
+  <project path="system/extras/su" name="system_extras_su" remote="YAOSP" revision="YAOSP-NG-7.0.0_r6" />
 
   <!-- Kernel repos for YAOSP -->
   <project path="kernel/huawei/angler" name="kernel_huawei_angler" remote="YAOSP" revision="YAOSP-NG-7.0.0_r6" />
@@ -570,7 +573,7 @@
   <!--project path="vendor/htc" name="vendor_htc" remote="YAOSP" revision="YAOSP-NG-7.0.0_r6" /-->
   <!--project path="vendor/asus" name="vendor_asus" remote="YAOSP" revision="YAOSP-NG-7.0.0_r6" /-->
 
-  <!-- 4.8 toolchainse / needed for some older kernels -->
+  <!-- 4.8 toolchains / needed for some older kernels -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" remote="aosp" revision="master" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" groups="pdk,darwin,arm" remote="aosp" revision="master" />
 
