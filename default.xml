@@ -12,7 +12,7 @@
   <!--project path="build" name="platform/build" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project-->
-  <project path="build" name="build" remote="YAOSP" revision="YAOSP-NG-7.0.0_r6" >
+  <project path="build" name="build" remote="YAOSP" revision="WIP" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
@@ -318,7 +318,7 @@
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
   <!--project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs" /-->
-  <project path="frameworks/base" name="frameworks_base" remote="YAOSP" revision="YAOSP-NG-7.0.0_r6" />
+  <project path="frameworks/base" name="frameworks_base" remote="YAOSP" revision="WIP" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -327,7 +327,7 @@
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs,pdk-fs" />
   <!--project path="frameworks/native" name="platform/frameworks/native" groups="pdk" /-->
-  <project path="frameworks/native" name="frameworks_native" remote="YAOSP" revision="YAOSP-NG-7.0.0_r6" />
+  <project path="frameworks/native" name="frameworks_native" remote="YAOSP" revision="WIP" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" groups="pdk-fs" />
   <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs,pdk-fs" />
@@ -348,7 +348,7 @@
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
   <!--project path="frameworks/support" name="platform/frameworks/support" groups="pdk-cw-fs,pdk-fs" /-->
-  <project path="frameworks/support" name="frameworks_support" remote="YAOSP" revision="YAOSP-NG-7.0.0_r6" />
+  <project path="frameworks/support" name="frameworks_support" remote="YAOSP" revision="WIP" />
   <project path="frameworks/data-binding" name="platform/frameworks/data-binding" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/webview" name="platform/frameworks/webview" groups="pdk-cw-fs,pdk-fs" />
@@ -436,7 +436,7 @@
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" groups="pdk-fs" />
   <!--project path="packages/apps/Settings" name="platform/packages/apps/Settings" groups="pdk-fs" /-->
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="YAOSP" revision="YAOSP-NG-7.0.0_r6" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="YAOSP" revision="WIP" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" groups="pdk-fs" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" groups="pdk-fs" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" groups="pdk-fs" />
@@ -516,9 +516,9 @@
   <project path="system/connectivity/dhcp_client" name="platform/system/connectivity/dhcp_client" />
   <project path="system/connectivity/shill" name="platform/system/connectivity/shill" />
   <!--project path="system/core" name="platform/system/core" groups="pdk" /-->
-  <project path="system/core" name="system_core" remote="YAOSP" revision="YAOSP-NG-7.0.0_r6" />
+  <project path="system/core" name="system_core" remote="YAOSP" revision="WIP" />
   <!--project path="system/extras" name="platform/system/extras" groups="pdk" /-->
-  <project path="system/extras" name="system_extras" remote="YAOSP" revision="YAOSP-NG-7.0.0_r6" />
+  <project path="system/extras" name="system_extras" remote="YAOSP" revision="WIP" />
   <project path="system/firewalld" name="platform/system/firewalld" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
@@ -528,7 +528,7 @@
   <project path="system/nvram" name="platform/system/nvram" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
   <!--project path="system/sepolicy" name="platform/system/sepolicy" groups="pdk" /-->
-  <project path="system/sepolicy" name="system_sepolicy" remote="YAOSP" revision="YAOSP-NG-7.0.0_r6" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="YAOSP" revision="WIP" />
   <project path="system/tools/aidl" name="platform/system/tools/aidl" groups="pdk-cw-fs,pdk-fs" />
   <project path="system/tpm" name="platform/system/tpm" />
   <project path="system/update_engine" name="platform/system/update_engine" />
@@ -555,7 +555,7 @@
   <!--project path="external/exfat" name="external_exfat" remote="YAOSP" revision="YAOSP-NG-7.0.0_r6" /-->
   <!--project path="external/ntfs-3g" name="external_ntfs-3g" remote="YAOSP" revision="YAOSP-NG-7.0.0_r6" /-->
   <!--project path="packages/apps/masquerade" name="packages_apps_masquerade" remote="YAOSP" revision="YAOSP-NG-7.0.0_r6" /-->
-  <project path="system/extras/su" name="system_extras_su" remote="YAOSP" revision="YAOSP-NG-7.0.0_r6" />
+  <project path="system/extras/su" name="system_extras_su" remote="YAOSP" revision="WIP" />
 
   <!-- Kernel repos for YAOSP -->
   <project path="kernel/huawei/angler" name="kernel_huawei_angler" remote="YAOSP" revision="YAOSP-NG-7.0.0_r6" />
@@ -566,7 +566,7 @@
   <!--project path="kernel/asus/flo" name="kernel_asus_flo" remote="YAOSP" revision="YAOSP-NG-7.0.0_r6" /-->
 
   <!-- Vendor repos for YAOSP -->
-  <project path="vendor/yaosp" name="vendor_yaosp" remote="YAOSP" revision="YAOSP-NG-7.0.0_r6" />
+  <project path="vendor/yaosp" name="vendor_yaosp" remote="YAOSP" revision="WIP" />
   <project path="vendor/huawei" name="vendor_huawei" remote="YAOSP" revision="YAOSP-NG-7.0.0_r6" />
   <project path="vendor/lge" name="vendor_lge" remote="YAOSP" revision="YAOSP-NG-7.0.0_r6" />
   <!--project path="vendor/moto" name="vendor_moto" remote="YAOSP" revision="YAOSP-NG-7.0.0_r6" /-->
