@@ -5,14 +5,14 @@
            fetch="https://android.googlesource.com/" />
   <remote  name="YAOSP"
            fetch="git://github.com/YAOSP-NG/" />
-  <default revision="refs/tags/android-7.0.0_r6"
+  <default revision="refs/tags/android-7.0.0_r14"
            remote="aosp"
            sync-j="4" />
 
   <!--project path="build" name="platform/build" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project-->
-  <project path="build" name="build" remote="YAOSP" revision="YAOSP-NG-7.0.0_r6" >
+  <project path="build" name="build" remote="YAOSP" revision="YAOSP-NG-7.0.0_r14" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
@@ -57,19 +57,19 @@
   <!--project path="device/google/dragon-kernel" name="device/google/dragon-kernel" groups="device,dragon" clone-depth="1" /-->
   <!--project path="device/htc/flounder" name="device/htc/flounder" groups="device,flounder,broadcom_pdk" /-->
   <!--project path="device/htc/flounder-kernel" name="device/htc/flounder-kernel" groups="device,flounder,broadcom_pdk" clone-depth="1" /-->
-  <!--project path="device/htc/flounder" name="device_htc_flounder" remote="YAOSP" revision="YAOSP-NG-7.0.0_r6" /-->
+  <!--project path="device/htc/flounder" name="device_htc_flounder" remote="YAOSP" revision="YAOSP-NG-7.0.0_r14" /-->
   <!--project path="device/huawei/angler" name="device/huawei/angler" groups="device,angler,broadcom_pdk" /-->
   <!--project path="device/huawei/angler-kernel" name="device/huawei/angler-kernel" groups="device,angler,broadcom_pdk" /-->
-  <project path="device/huawei/angler" name="device_huawei_angler" remote="YAOSP" revision="YAOSP-NG-7.0.0_r6" />
+  <project path="device/huawei/angler" name="device_huawei_angler" remote="YAOSP" revision="YAOSP-NG-7.0.0_r14" />
   <!--project path="device/intel/edison" name="device/intel/edison" groups="device" /-->
   <!--project path="device/lge/bullhead" name="device/lge/bullhead" groups="device,bullhead" /-->
   <!--project path="device/lge/bullhead-kernel" name="device/lge/bullhead-kernel" groups="device,bullhead" /-->
-  <project path="device/lge/bullhead" name="device_lge_bullhead" remote="YAOSP" revision="YAOSP-NG-7.0.0_r6" />
+  <project path="device/lge/bullhead" name="device_lge_bullhead" remote="YAOSP" revision="YAOSP-NG-7.0.0_r14" />
   <!--project path="device/linaro/hikey" name="device/linaro/hikey" /-->
   <!--project path="device/linaro/hikey-kernel" name="device/linaro/hikey-kernel" /-->
   <!--project path="device/moto/shamu" name="device/moto/shamu" groups="device,shamu,broadcom_pdk" /-->
   <!--project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu,broadcom_pdk" clone-depth="1" /-->
-  <!--project path="device/moto/shamu" name="device_moto_shamu" remote="YAOSP" revision="YAOSP-NG-7.0.0_r6" /-->
+  <project path="device/moto/shamu" name="device_moto_shamu" remote="YAOSP" revision="YAOSP-NG-7.0.0_r14" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
@@ -317,7 +317,7 @@
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
   <!--project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs" /-->
-  <project path="frameworks/base" name="frameworks_base" remote="YAOSP" revision="YAOSP-NG-7.0.0_r6" />
+  <project path="frameworks/base" name="frameworks_base" remote="YAOSP" revision="YAOSP-NG-7.0.0_r14" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -326,7 +326,7 @@
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs,pdk-fs" />
   <!--project path="frameworks/native" name="platform/frameworks/native" groups="pdk" /-->
-  <project path="frameworks/native" name="frameworks_native" remote="YAOSP" revision="YAOSP-NG-7.0.0_r6" />
+  <project path="frameworks/native" name="frameworks_native" remote="YAOSP" revision="YAOSP-NG-7.0.0_r14" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" groups="pdk-fs" />
   <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs,pdk-fs" />
@@ -434,7 +434,7 @@
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" groups="pdk-fs" />
   <!--project path="packages/apps/Settings" name="platform/packages/apps/Settings" groups="pdk-fs" /-->
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="YAOSP" revision="YAOSP-NG-7.0.0_r6" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="YAOSP" revision="YAOSP-NG-7.0.0_r14" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" groups="pdk-fs" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" groups="pdk-fs" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" groups="pdk-fs" />
@@ -514,7 +514,7 @@
   <project path="system/connectivity/dhcp_client" name="platform/system/connectivity/dhcp_client" />
   <project path="system/connectivity/shill" name="platform/system/connectivity/shill" />
   <!--project path="system/core" name="platform/system/core" groups="pdk" /-->
-  <project path="system/core" name="system_core" remote="YAOSP" revision="YAOSP-NG-7.0.0_r6" />
+  <project path="system/core" name="system_core" remote="YAOSP" revision="YAOSP-NG-7.0.0_r14" />
   <project path="system/extras" name="platform/system/extras" groups="pdk" />
   <project path="system/firewalld" name="platform/system/firewalld" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
@@ -525,7 +525,7 @@
   <project path="system/nvram" name="platform/system/nvram" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
   <!--project path="system/sepolicy" name="platform/system/sepolicy" groups="pdk" /-->
-  <project path="system/sepolicy" name="system_sepolicy" remote="YAOSP" revision="YAOSP-NG-7.0.0_r6" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="YAOSP" revision="YAOSP-NG-7.0.0_r14" />
   <project path="system/tools/aidl" name="platform/system/tools/aidl" groups="pdk-cw-fs,pdk-fs" />
   <project path="system/tpm" name="platform/system/tpm" />
   <project path="system/update_engine" name="platform/system/update_engine" />
@@ -547,26 +547,26 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
   <!-- Additional repos for YAOSP -->
-  <!--project path="external/busybox" name="external_busybox" remote="YAOSP" revision="YAOSP-NG-7.0.0_r6" /-->
-  <!--project path="external/fuse" name="external_fuse" remote="YAOSP" revision="YAOSP-NG-7.0.0_r6" /-->
-  <!--project path="external/exfat" name="external_exfat" remote="YAOSP" revision="YAOSP-NG-7.0.0_r6" /-->
-  <!--project path="external/ntfs-3g" name="external_ntfs-3g" remote="YAOSP" revision="YAOSP-NG-7.0.0_r6" /-->
-  <!--project path="packages/apps/masquerade" name="packages_apps_masquerade" remote="YAOSP" revision="YAOSP-NG-7.0.0_r6" /-->
+  <!--project path="external/busybox" name="external_busybox" remote="YAOSP" revision="YAOSP-NG-7.0.0_r14" /-->
+  <!--project path="external/fuse" name="external_fuse" remote="YAOSP" revision="YAOSP-NG-7.0.0_r14" /-->
+  <!--project path="external/exfat" name="external_exfat" remote="YAOSP" revision="YAOSP-NG-7.0.0_r14" /-->
+  <!--project path="external/ntfs-3g" name="external_ntfs-3g" remote="YAOSP" revision="YAOSP-NG-7.0.0_r14" /-->
+  <!--project path="packages/apps/masquerade" name="packages_apps_masquerade" remote="YAOSP" revision="YAOSP-NG-7.0.0_r14" /-->
 
   <!-- Kernel repos for YAOSP -->
-  <project path="kernel/huawei/angler" name="kernel_huawei_angler" remote="YAOSP" revision="YAOSP-NG-7.0.0_r6" />
-  <project path="kernel/lge/bullhead" name="kernel_lge_bullhead" remote="YAOSP" revision="YAOSP-NG-7.0.0_r6" />
-  <!--project path="kernel/lge/hammerhead" name="kernel_lge_hammerhead" remote="YAOSP" revision="YAOSP-NG-7.0.0_r6" /-->
-  <!--project path="kernel/htc/flounder" name="kernel_htc_flounder" remote="YAOSP" revision="YAOSP-NG-7.0.0_r6" /-->
-  <!--project path="kernel/moto/shamu" name="kernel_moto_shamu" remote="YAOSP" revision="YAOSP-NG-7.0.0_r6" /-->
-  <!--project path="kernel/asus/flo" name="kernel_asus_flo" remote="YAOSP" revision="YAOSP-NG-7.0.0_r6" /-->
+  <project path="kernel/huawei/angler" name="kernel_huawei_angler" remote="YAOSP" revision="YAOSP-NG-7.0.0_r14" />
+  <project path="kernel/lge/bullhead" name="kernel_lge_bullhead" remote="YAOSP" revision="YAOSP-NG-7.0.0_r14" />
+  <project path="kernel/moto/shamu" name="kernel_moto_shamu" remote="YAOSP" revision="YAOSP-NG-7.0.0_r14" />
+  <!--project path="kernel/lge/hammerhead" name="kernel_lge_hammerhead" remote="YAOSP" revision="YAOSP-NG-7.0.0_r14" /-->
+  <!--project path="kernel/htc/flounder" name="kernel_htc_flounder" remote="YAOSP" revision="YAOSP-NG-7.0.0_r14" /-->
+  <!--project path="kernel/asus/flo" name="kernel_asus_flo" remote="YAOSP" revision="YAOSP-NG-7.0.0_r14" /-->
 
   <!-- Vendor repos for YAOSP -->
-  <project path="vendor/yaosp" name="vendor_yaosp" remote="YAOSP" revision="YAOSP-NG-7.0.0_r6" />
-  <project path="vendor/huawei" name="vendor_huawei" remote="YAOSP" revision="YAOSP-NG-7.0.0_r6" />
-  <project path="vendor/lge" name="vendor_lge" remote="YAOSP" revision="YAOSP-NG-7.0.0_r6" />
-  <!--project path="vendor/moto" name="vendor_moto" remote="YAOSP" revision="YAOSP-NG-7.0.0_r6" /-->
-  <!--project path="vendor/htc" name="vendor_htc" remote="YAOSP" revision="YAOSP-NG-7.0.0_r6" /-->
-  <!--project path="vendor/asus" name="vendor_asus" remote="YAOSP" revision="YAOSP-NG-7.0.0_r6" /-->
+  <project path="vendor/yaosp" name="vendor_yaosp" remote="YAOSP" revision="YAOSP-NG-7.0.0_r14" />
+  <project path="vendor/huawei" name="vendor_huawei" remote="YAOSP" revision="YAOSP-NG-7.0.0_r14" />
+  <project path="vendor/lge" name="vendor_lge" remote="YAOSP" revision="YAOSP-NG-7.0.0_r14" />
+  <project path="vendor/moto" name="vendor_moto" remote="YAOSP" revision="YAOSP-NG-7.0.0_r14" />
+  <!--project path="vendor/htc" name="vendor_htc" remote="YAOSP" revision="YAOSP-NG-7.0.0_r14" /-->
+  <!--project path="vendor/asus" name="vendor_asus" remote="YAOSP" revision="YAOSP-NG-7.0.0_r14" /-->
 
 </manifest>
