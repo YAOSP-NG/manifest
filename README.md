@@ -51,13 +51,13 @@ Flounder (Nexus 9) : -- no support yet, maybe later ---
 
 Flo (Nexus 7-2013 WiFi) : -- no support yet, maybe later ---
 
-* General Note 1 : This ROM comes with source-based bake-in root, which you have to enable in developer settings, it's disabled by default !
+* General Note 1 : This ROM comes with baked-in phh-root, to use it you need to install [phh superuser app] (https://play.google.com/store/apps/details?id=me.phh.superuser) from Playstore, all props and thanx go to Pierre-Hugues Husson for mainting SU open sourced.
 
-* General Note 2 : If you prefer the use of SuperSU, you can flash it like before, it will be supported as well.
+* General Note 2 : The use of SuperSU is not officially supported anymore.
 
-* General Note 3 : This ROM does NOT comes with gapps, nor gapps backup script, so you need to flash gapps after the ROM zip each time !
+* General Note 3 : This ROM does NOT come with gapps, nor gapps backup script, so you need to flash gapps after the ROM zip each time !
 
-* Note for Angler, Bullhead and Flounder : flash respective latest vendor image and bootloader.
+* Note for Angler, Bullhead and Flounder : flash respective vendor image and bootloader, you'll get an error message if using the wrong vendor image.
 
 Keep updated
 ------------
