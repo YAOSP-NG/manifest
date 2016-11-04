@@ -411,8 +411,8 @@
   <!--project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" groups="pdk-fs" /-->
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="YAOSP" revision="YAOSP-NG-7.0.0_r14" />
   <!--project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" groups="pdk-fs" /-->
-  <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon"  remote="YAOSP" revision="YAOSP-NG-7.0.0_r14" />
-  <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" groups="pdk-fs" />
+  <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="YAOSP" revision="YAOSP-NG-7.0.0_r14" />
+  <!--project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" groups="pdk-fs" /-->
   <project path="packages/apps/DevCamera" name="platform/packages/apps/DevCamera" groups="pdk" />
   <!--project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" groups="pdk-fs" /-->
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="YAOSP" revision="YAOSP-NG-7.0.0_r14" />
