@@ -584,4 +584,8 @@
   <!--project path="vendor/htc" name="vendor_htc" remote="YAOSP" revision="YAOSP-NG-7.0.0_r19" /-->
   <!--project path="vendor/asus" name="vendor_asus" remote="YAOSP" revision="YAOSP-NG-7.0.0_r19" /-->
 
+  <!-- Toolchain repos for YAOSP -->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="linux-arm-eabi-4.8" remote="YAOSP" revision="master" />
+  <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" name="darwin-arm-eabi-4.8" remote="YAOSP" revision="master" />
+
 </manifest>
