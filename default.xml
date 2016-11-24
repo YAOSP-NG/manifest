@@ -562,7 +562,7 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
   <!-- Additional repos for YAOSP -->
-  <!--project path="external/busybox" name="external_busybox" remote="YAOSP" revision="YAOSP-NG-7.0.0_r21" /-->
+  <project path="external/busybox" name="external_busybox" remote="YAOSP" revision="YAOSP-NG-7.0.0_r21" />
   <!--project path="external/fuse" name="external_fuse" remote="YAOSP" revision="YAOSP-NG-7.0.0_r21" /-->
   <!--project path="external/exfat" name="external_exfat" remote="YAOSP" revision="YAOSP-NG-7.0.0_r21" /-->
   <!--project path="external/ntfs-3g" name="external_ntfs-3g" remote="YAOSP" revision="YAOSP-NG-7.0.0_r21" /-->
