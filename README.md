@@ -11,7 +11,7 @@ To get started with YAOSP, you'll need to get familiar with
 
 To initialize your local repository using the YAOSP trees, use this command:
 
-	repo init -u git://github.com/YAOSP-NG/manifest.git -b YAOSP-NG-7.0.0_r21
+	repo init -u git://github.com/YAOSP-NG/manifest.git -b YAOSP-NG-7.1.1_r4
 
 
 Then sync up with this command:
@@ -23,14 +23,14 @@ Then sync up with this command:
 Changelog
 ---------
 
-You can find the latest changelogs [here](https://raw.githubusercontent.com/YAOSP-NG/vendor_yaosp/YAOSP-NG-7.0.0_r21/misc/doc/Changelog.txt).
+You can find the latest changelogs [here](https://raw.githubusercontent.com/YAOSP-NG/vendor_yaosp/YAOSP-NG-7.1.1_r4/misc/doc/Changelog.txt).
 
 
 
 Known issues
 ------------
 
-You can find the currently known issues list [here](https://raw.githubusercontent.com/YAOSP-NG/vendor_yaosp/YAOSP-NG-7.0.0_r21/misc/doc/Known_issues.txt).
+You can find the currently known issues list [here](https://raw.githubusercontent.com/YAOSP-NG/vendor_yaosp/YAOSP-NG-7.1.1_r4/misc/doc/Known_issues.txt).
 
 
 
