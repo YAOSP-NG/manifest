@@ -364,7 +364,8 @@
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs,pdk-fs" />
   <project path="hardware/akm" name="platform/hardware/akm" />
   <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" />
-  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="pdk,broadcom_wlan" />
+  <!--project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="pdk,broadcom_wlan" /-->
+  <project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan" remote="YAOSP" revision="YAOSP-NG-7.1.1_r4" />
   <project path="hardware/bsp/intel" name="platform/hardware/bsp/intel" />
   <project path="hardware/google/apf" name="platform/hardware/google/apf" groups="pdk" />
   <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel" />
@@ -385,14 +386,20 @@
   <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
   <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt" />
-  <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom,qcom_audio" />
+  <!--project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom,qcom_audio" /-->
+  <project path="hardware/qcom/audio" name="hardware_qcom_audio" remote="YAOSP" revision="YAOSP-NG-7.1.1_r4" />
   <project path="hardware/qcom/bootctrl" name="platform/hardware/qcom/bootctrl" groups="pdk" />
-  <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
+  <!--project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" /-->
+  <project path="hardware/qcom/bt" name="hardware_qcom_bt" remote="YAOSP" revision="YAOSP-NG-7.1.1_r4" />
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" />
-  <project path="hardware/qcom/display" name="platform/hardware/qcom/display" groups="pdk,qcom,qcom_display" />
-  <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom,qcom_gps" />
-  <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom,qcom_keymaster" />
-  <project path="hardware/qcom/media" name="platform/hardware/qcom/media" groups="qcom" />
+  <!--project path="hardware/qcom/display" name="platform/hardware/qcom/display" groups="pdk,qcom,qcom_display" /-->
+  <project path="hardware/qcom/display" name="hardware_qcom_display" remote="YAOSP" revision="YAOSP-NG-7.1.1_r4" />
+  <!--project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom,qcom_gps" /-->
+  <project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="YAOSP" revision="YAOSP-NG-7.1.1_r4" />
+  <!--project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom,qcom_keymaster" /-->
+  <project path="hardware/qcom/keymaster" name="hardware_qcom_keymaster" remote="YAOSP" revision="YAOSP-NG-7.1.1_r4" />
+  <!--project path="hardware/qcom/media" name="platform/hardware/qcom/media" groups="qcom" /-->
+  <project path="hardware/qcom/media" name="hardware_qcom_media" remote="YAOSP" revision="YAOSP-NG-7.1.1_r4" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
   <project path="hardware/qcom/msm8994" name="platform/hardware/qcom/msm8994" groups="qcom_msm8994" />
   <project path="hardware/qcom/msm8996" name="platform/hardware/qcom/msm8996" groups="qcom_msm8996" />
@@ -582,7 +589,7 @@
   <project path="kernel/huawei/angler" name="kernel_huawei_angler" remote="YAOSP" revision="YAOSP-NG-7.1.1_r4" />
   <project path="kernel/lge/bullhead" name="kernel_lge_bullhead" remote="YAOSP" revision="YAOSP-NG-7.1.1_r4" />
   <project path="kernel/moto/shamu" name="kernel_moto_shamu" remote="YAOSP" revision="YAOSP-NG-7.1.1_r4" />
-  <!--project path="kernel/lge/hammerhead" name="kernel_lge_hammerhead" remote="YAOSP" revision="YAOSP-NG-7.1.1_r4" /-->
+  <project path="kernel/lge/hammerhead" name="kernel_lge_hammerhead" remote="YAOSP" revision="YAOSP-NG-7.1.1_r4" />
   <!--project path="kernel/htc/flounder" name="kernel_htc_flounder" remote="YAOSP" revision="YAOSP-NG-7.1.1_r4" /-->
   <!--project path="kernel/asus/flo" name="kernel_asus_flo" remote="YAOSP" revision="YAOSP-NG-7.1.1_r4" /-->
 
@@ -593,6 +600,10 @@
   <project path="vendor/moto" name="vendor_moto" remote="YAOSP" revision="YAOSP-NG-7.1.1_r4" />
   <!--project path="vendor/htc" name="vendor_htc" remote="YAOSP" revision="YAOSP-NG-7.1.1_r4" /-->
   <!--project path="vendor/asus" name="vendor_asus" remote="YAOSP" revision="YAOSP-NG-7.1.1_r4" /-->
+
+  <!-- Additional repos to support Hammerhead -->
+  <project path="device/lge/hammerhead" name="device_lge_hammerhead" remote="YAOSP" revision="YAOSP-NG-7.1.1_r4" />
+  <project path="hardware/qcom/msm8x74" name="hardware_qcom_msm8x74" remote="YAOSP" revision="YAOSP-NG-7.1.1_r4" />
 
   <!-- Toolchain repos for YAOSP -->
   <!--project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="linux-arm-eabi-4.8" remote="YAOSP" revision="master" /-->

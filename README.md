@@ -45,11 +45,11 @@ Bullhead (Nexus 5X) : [Android File Host](https://www.androidfilehost.com/?w=fil
 
 Shamu (Nexus 6) : [Android File Host](https://www.androidfilehost.com/?w=files&flid=114294)
 
-Hammerhead (Nexus 5) : -- no support yet, maybe later ---
+Hammerhead (Nexus 5) : [Android File Host](https://www.androidfilehost.com/?w=files&flid=136897)
 
-Flounder (Nexus 9) : -- no support yet, maybe later ---
+Flounder (Nexus 9) : -- no support yet, maybe later --
 
-Flo (Nexus 7-2013 WiFi) : -- no support yet, maybe later ---
+Flo (Nexus 7-2013 WiFi) : -- no support yet, maybe later --
 
 * General Note 1 : This ROM comes with baked-in phh-root, to use it you need to install [phh superuser app] (https://play.google.com/store/apps/details?id=me.phh.superuser) from Playstore, all props and thanx go to Pierre-Hugues Husson for mainting SU open sourced.
 
