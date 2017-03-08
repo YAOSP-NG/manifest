@@ -583,7 +583,7 @@
   <!--project path="external/fuse" name="external_fuse" remote="YAOSP" revision="YAOSP-NG-7.1.1_r24" /-->
   <!--project path="external/exfat" name="external_exfat" remote="YAOSP" revision="YAOSP-NG-7.1.1_r24" /-->
   <!--project path="external/ntfs-3g" name="external_ntfs-3g" remote="YAOSP" revision="YAOSP-NG-7.1.1_r24" /-->
-  <project path="packages/apps/masquerade" name="packages_apps_masquerade" remote="YAOSP" revision="YAOSP-NG-7.1.1_r24" />
+  <project path="packages/apps/ThemeInterfacer" name="packages_apps_ThemeInterfacer" remote="YAOSP" revision="YAOSP-NG-7.1.1_r24" />
 
   <!-- Kernel repos for YAOSP -->
   <project path="kernel/huawei/angler" name="kernel_huawei_angler" remote="YAOSP" revision="YAOSP-NG-7.1.1_r24" />
