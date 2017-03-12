@@ -61,7 +61,7 @@
   <!--project path="device/google/dragon-kernel" name="device/google/dragon-kernel" groups="device,dragon" clone-depth="1" /-->
   <!--project path="device/htc/flounder" name="device/htc/flounder" groups="device,flounder,broadcom_pdk" /-->
   <!--project path="device/htc/flounder-kernel" name="device/htc/flounder-kernel" groups="device,flounder,broadcom_pdk" clone-depth="1" /-->
-  <!--project path="device/htc/flounder" name="device_htc_flounder" remote="YAOSP" revision="YAOSP-NG-7.1.1_r24" /-->
+  <project path="device/htc/flounder" name="device_htc_flounder" remote="YAOSP" revision="YAOSP-NG-7.1.1_r24" />
   <!--project path="device/huawei/angler" name="device/huawei/angler" groups="device,angler,broadcom_pdk" /-->
   <!--project path="device/huawei/angler-kernel" name="device/huawei/angler-kernel" groups="device,angler,broadcom_pdk" /-->
   <project path="device/huawei/angler" name="device_huawei_angler" remote="YAOSP" revision="YAOSP-NG-7.1.1_r24" />
@@ -590,7 +590,7 @@
   <project path="kernel/lge/bullhead" name="kernel_lge_bullhead" remote="YAOSP" revision="YAOSP-NG-7.1.1_r24" />
   <project path="kernel/moto/shamu" name="kernel_moto_shamu" remote="YAOSP" revision="YAOSP-NG-7.1.1_r24" />
   <project path="kernel/lge/hammerhead" name="kernel_lge_hammerhead" remote="YAOSP" revision="YAOSP-NG-7.1.1_r24" />
-  <!--project path="kernel/htc/flounder" name="kernel_htc_flounder" remote="YAOSP" revision="YAOSP-NG-7.1.1_r24" /-->
+  <project path="kernel/htc/flounder" name="kernel_htc_flounder" remote="YAOSP" revision="YAOSP-NG-7.1.1_r24" />
   <!--project path="kernel/asus/flo" name="kernel_asus_flo" remote="YAOSP" revision="YAOSP-NG-7.1.1_r24" /-->
 
   <!-- Vendor repos for YAOSP -->
@@ -598,7 +598,7 @@
   <project path="vendor/huawei" name="vendor_huawei" remote="YAOSP" revision="YAOSP-NG-7.1.1_r24" />
   <project path="vendor/lge" name="vendor_lge" remote="YAOSP" revision="YAOSP-NG-7.1.1_r24" />
   <project path="vendor/moto" name="vendor_moto" remote="YAOSP" revision="YAOSP-NG-7.1.1_r24" />
-  <!--project path="vendor/htc" name="vendor_htc" remote="YAOSP" revision="YAOSP-NG-7.1.1_r24" /-->
+  <project path="vendor/htc" name="vendor_htc" remote="YAOSP" revision="YAOSP-NG-7.1.1_r24" />
   <!--project path="vendor/asus" name="vendor_asus" remote="YAOSP" revision="YAOSP-NG-7.1.1_r24" /-->
 
   <!-- Additional repos to support Hammerhead -->
