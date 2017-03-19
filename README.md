@@ -1,5 +1,10 @@
-Welcome to YAOSP
-================
+About YAOSP
+===========
+
+This project is from hereon a purely private project.
+
+As such this is the last update that will be publically shared, in source and in compiled form.
+
 
 
 Getting Started
